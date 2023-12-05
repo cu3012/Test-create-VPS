@@ -7,7 +7,7 @@ Run apt-get update && \
     apt-get install -y systemd && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
-RUN echo 'root:root' | chpasswd
+RUN echo 'cu3012:cu3012' | chpasswd
 #Expose the web-based terminal port
 EXPOSE 4200
 
